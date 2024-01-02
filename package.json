@@ -1,17 +1,19 @@
 {
-  "name": "Fe-utils-service",
-  "version": "1.0.0",
+  "name": "fe-utils-service",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "commit": "cz"
+    "cm": "cz"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "turbo": "^1.11.2"
   },
   "config": {
     "commitizen": {
